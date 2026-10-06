@@ -218,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project secrets and local credentials
+*.env
+!.env.example
+credentials.json
+token.json
+client_secret*.json
+
+# Runtime data, sessions, and logs
+data/
+*.session
+*.session-journal
+insta_session.json
+logs/
+*.log
+
+# Local environments and editor settings
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+.claude/settings.local.json

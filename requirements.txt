@@ -1,0 +1,38 @@
+# J.A.R.V.I.S — Python 3.12 (Windows 10/11)
+# Install:  py -3.12 -m venv .venv  &&  .venv\Scripts\activate  &&  pip install -r requirements.txt
+
+# --- Core / GUI ---
+PySide6>=6.7
+python-dotenv>=1.0
+httpx>=0.27
+psutil>=5.9
+nvidia-ml-py>=12.535
+numpy>=1.26
+Pillow>=10.0
+tzlocal>=5.0
+
+# --- Voice (Whisper STT + Edge-TTS) ---
+faster-whisper>=1.0
+sounddevice>=0.4.7
+edge-tts>=6.1
+miniaudio>=1.60
+
+# --- Windows control ---
+pyautogui>=0.9.54
+pywin32>=306
+pycaw>=20230407
+comtypes>=1.2
+screen-brightness-control>=0.20
+mss>=9.0
+pyperclip>=1.8
+uiautomation>=2.0
+winocr>=0.0.15
+
+# --- Integrations ---
+telethon>=1.36,<2
+instagrapi>=2.1
+pyotp>=2.9
+google-api-python-client>=2.100
+google-auth-oauthlib>=1.2
+google-auth-httplib2>=0.2
+google-genai>=1.0
